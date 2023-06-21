@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steadfast email</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Vesper+Libre:wght@400;500&display=swap"
+        rel="stylesheet">
 </head>
 <!--
     $secondary: rgb(250, 193, 193);
@@ -11,15 +17,16 @@ $light: rgb(255, 236, 236);
 -->
 
 <body style="background-color: rgb(98, 23, 23); overflow-x: hidden;">
-    <header style="display: flex; justify-content: center; padding: 40px;">
-        <div style="margin: 0 auto; display: flex; justify-content: center;">
+    <header style="display: flex; justify-content: center; padding: calc(15px + (100vw - 1000px) * (15 - 30) / (700 -  1000));">
+        <div style="margin: 0 auto; display: flex; justify-content: center; align-items: center;">
+            <h1 style="color: rgb(250, 193, 193); font-family: 'Vesper Libre', serif; font-weight: 400; margin: 12px 4px 12px 0;">SPS</h1>
             <img src="https://firebasestorage.googleapis.com/v0/b/steadfastprivateschools-admin.appspot.com/o/images%2Fwine_logo-removebg-preview.png?alt=media&token=83f69eb4-edc7-41ab-b996-cc7d8abe0700"
-                alt="" style="width: 15%;">
+                alt="" style="width: 2rem; height: 2rem; margin-bottom: 6px;">
         </div>
     </header>
     <main
-        style="border-radius: 8px; overflow: hidden; background-color: rgb(115, 28, 28); box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.151); width: 90%; margin: 0 auto;">
-        <div style="height: 11rem; position: relative;">
+        style="border-radius: 8px; font-family: 'Montserrat', sans-serif; overflow: hidden; background-color: rgb(115, 28, 28); box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.151); width: calc(90/100 * (100vw)); margin: 0 auto;">
+        <div style="height: 12rem; position: relative;">
             <div style="position: absolute; height: 100%; width: 100%; background-color: rgba(255, 236, 236, 0.341);">
             </div>
             <div style="width: 100%; height: 100%;">
@@ -27,16 +34,16 @@ $light: rgb(255, 236, 236);
                     alt="" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
-        <div style="padding: 40px; color: rgb(255, 236, 236); font-size: 1rem; line-height: 150%;">
+        <div style="padding: calc(15px + (200vw - 700px) * (15 - 30) / (700 -  1000)); color: rgb(255, 236, 236); font-size: 0.94rem; line-height: 150%;">
             <p>Dear [Sender's Name],</p>
             <p>Thank you for reaching out to [Your School's Name]! We appreciate your interest and value your time.
                 Please note that this is an automated response to acknowledge the receipt of your message. Our team will
                 review your inquiry and respond to you as soon as possible. In the meantime, we have provided some
                 helpful information below that may address your query:</p>
-            <ol>
+            <ol style="padding-inline-start: 30px;">
                 <li>
                     Admissions and Enrollment:
-                    <ul>
+                    <ul style="padding-inline-start: 30px;">
                         <li>
                             For information regarding the admissions process, required documents, and important dates,
                             please visit our website's Admissions page.
@@ -50,7 +57,7 @@ $light: rgb(255, 236, 236);
                 </li>
                 <li>
                     Academic Programs:
-                    <ul>
+                    <ul style="padding-inline-start: 30px;">
                         <li>
                             To learn more about our comprehensive range of academic programs, including details on
                             courses, curriculum, and faculty, we encourage you to explore our website's Academics
@@ -65,7 +72,7 @@ $light: rgb(255, 236, 236);
                 </li>
                 <li>
                     Student Services and Support:
-                    <ul>
+                    <ul style="padding-inline-start: 30px;">
                         <li>
                             Our dedicated Student Services team is available to assist you with any questions or
                             concerns related to student life, extracurricular activities, and support services. For
@@ -81,7 +88,7 @@ $light: rgb(255, 236, 236);
                 </li>
                 <li>
                     Events and News:
-                    <ul>
+                    <ul style="padding-inline-start: 30px;">
                         Stay up to date with the latest happenings at [Your School's Name] by visiting our website's
                         Events and News sections. Here you will find information about upcoming events, guest lectures,
                         workshops, and other exciting news.
